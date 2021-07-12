@@ -1,0 +1,102 @@
+h1{
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+h2{
+    color:black;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    border:5px solid red;
+    margin:5px;
+}
+.grid img{
+    border: 2px Solid red
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius:20px;
+    background-color:#5dc9fd
+    ;
+    width:310px;
+    font-family:fantasy;
+    padding:10px;
+    margin:45px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFD580
+    ;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 400;
+    padding:5px;
+    color:#000000
+}
+body{
+    background-color:#FFD580;
+    margin:0px;
+
+
+}
+
+
+h2{
+    color:white;
+    margin-left:285px;
+}
+p{
+    color: white;
+}
+h1{
+    margin-left:285px;
+}
+a:hover{
+    color:green
+    text-decoration: none
+}
+a:visited{
+    color:blue;
+    text-decoration: none;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color:#000000;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.programming:hover{
+    transform: scale(1.2);
+}
+.networking:hover{
+    transform: scale(1.2);
+}
+.sports:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
